@@ -1,0 +1,14 @@
+Part One
+1. HTTP is the hypertext transfer protocol, a defined format for communication between a machine and a server on the internet.
+2. A URL is a formatted structure for the location of a certain resource, with multiple parts to tell a server exactly what data we're requesting
+3. A DNS is a system that translates a hostname to an IP address
+4. A query string is a set of key and value pairs attached to the end of a URL in order to send arguments for our request and get more specific about how we want data returned
+5. Two HTTP verbs are GET and POST. GET sends a request just to receive data in return, it doesn't alter any data on the server. Usually we send arguments through a query string. POST sends a request to get a response as well as make some change to the data on the server, like adding a new picture or something. We usually pass information through the request body in a POST request.
+6. An HTTP request is a message sent to a server asking to receive or alter data
+7. An HTTP response is the data that the server sends back from a request - this can take many different forms depending on what kind of request we made. The data usually comes in the response body.
+8. An HTTP header is a parameter for a request or a response. One request header we've seen is "Accept-language", which specifies what language we want to receive our data in. Another request header is "Accept", which names the format we want our response in, like JSON or HTML.
+9. 
+- Browser sends a request to a web server with headers based on your URL
+- The web server takes the parameters of your request and uses that to find the data you're looking for (or not)
+- The web server sends a response back with headers and whatever data it has found at the location you specified
+- The browser then loads that data and attempts to display it for you
